@@ -7,9 +7,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Profile 
-        name="Desenvolvedor Expo"
+        name="Sammuel Victor"
         avatarUrl="" // URL de exemplo
-        bio="Apaixonado por tecnologia, criando apps incríveis com React Native e TypeScript."
+        bio="Sistemas Para Internet (Unicap)."
       />
     </View>
   );

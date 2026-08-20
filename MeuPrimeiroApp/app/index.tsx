@@ -8,8 +8,8 @@ export default function App() {
     <View style={styles.container}>
       <Profile 
         name="Sammuel Victor"
-        avatarUrl="" // URL de exemplo
-        bio="Sistemas Para Internet (Unicap)."
+        avatarUrl="https://media.licdn.com/dms/image/v2/D4E03AQGP5tKdKlYFGg/profile-displayphoto-scale_400_400/B4EZ3WClqEHcAk-/0/1777412497936?e=1788998400&v=beta&t=kkSZKsITgRZ_wcg2LscIOi2rGIJ9YwQDdiKSXFOk_Ng" // URL de exemplo
+        bio="Estudante de Sistemas para Internet na UNICAP e entusiasta em Desenvolvimento de Sistemas. Focado em criar soluções eficientes com Java, React e inovação tecnológica."
       />
     </View>
   );

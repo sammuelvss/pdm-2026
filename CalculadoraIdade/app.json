@@ -1,19 +1,15 @@
 {
   "expo": {
-    "name": "MeuPrimeiroApp",
-    "slug": "MeuPrimeiroApp",
+    "name": "CalculadoraIdade",
+    "slug": "CalculadoraIdade",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "meuprimeiroapp",
+    "scheme": "calculadoraidade",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.sammuelvictorsteam.MeuPrimeiroApp",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -23,8 +19,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.sammuelvictorsteam.MeuPrimeiroApp"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
@@ -52,14 +47,14 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "cdf7bab6-a4c1-4e43-b079-8eda62faedcc"
+        "projectId": "b117b3a9-e68b-4250-ae50-44da423d7ba5"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/cdf7bab6-a4c1-4e43-b079-8eda62faedcc"
+      "url": "https://u.expo.dev/b117b3a9-e68b-4250-ae50-44da423d7ba5"
     }
   }
 }

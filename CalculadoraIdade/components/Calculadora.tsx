@@ -8,7 +8,7 @@ export function Calculadora() {
 
   let anoNascimento = null;
 
-  // Só faz o cálculo se os 3 campos estiverem preenchidos
+  
   if (idadeDigitada && diaDigitado && mesDigitado) {
     const idade = parseInt(idadeDigitada);
     const diaNascimento = parseInt(diaDigitado);
@@ -16,15 +16,15 @@ export function Calculadora() {
 
     const dataAtual = new Date();
     const anoAtual = dataAtual.getFullYear();
-    const mesAtual = dataAtual.getMonth() + 1; // O JavaScript conta os meses de 0 a 11, então somamos 1
+    const mesAtual = dataAtual.getMonth() + 1; 
     const diaAtual = dataAtual.getDate();
 
-    // Verifica se a pessoa já fez aniversário no ano atual
+   
     const jaFezAniversario = 
       mesAtual > mesNascimento || 
       (mesAtual === mesNascimento && diaAtual >= diaNascimento);
 
-    // Aplica a regra matemática
+   
     if (jaFezAniversario) {
       anoNascimento = anoAtual - idade;
     } else {
@@ -45,7 +45,7 @@ export function Calculadora() {
         onChangeText={setIdadeDigitada}
       />
 
-      {/* View para colocar o Dia e o Mês na mesma linha */}
+      
       <View style={styles.row}>
         <TextInput
           style={[styles.input, styles.inputMetade]}
@@ -66,7 +66,7 @@ export function Calculadora() {
         />
       </View>
 
-      {/* Só exibe o resultado se o cálculo gerou um ano válido */}
+      
       {anoNascimento !== null && !isNaN(anoNascimento) && (
         <Text style={styles.resultado}>
           Você nasceu no ano de {anoNascimento}.
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    justifyContent: 'space-between', // Separa os dois inputs de baixo
+    justifyContent: 'space-between', 
     width: '100%',
   },
   input: {
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   inputMetade: {
-    width: '48%', // Faz os inputs dividirem o espaço na linha
+    width: '48%', 
   },
   resultado: {
     fontSize: 18,

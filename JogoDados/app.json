@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CalculadoraIdade",
-    "slug": "CalculadoraIdade",
+    "name": "JogoDados",
+    "slug": "jogo-dados",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "calculadoraidade",
+    "scheme": "jogodados",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

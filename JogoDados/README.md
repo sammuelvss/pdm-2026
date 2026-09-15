@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Jogo de Dados - Mobile (Expo Go) 🎲
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicação mobile desenvolvida em **React Native** com **Expo** e **TypeScript**, replicando o jogo de dados web para dispositivos móveis.
 
-## Get started
+## Como Jogar
 
-1. Install dependencies
+1. O jogo possui **5 rodadas**.
+2. No turno de cada jogador, clique em **Jogar Dado** para rolar dois dados de 1 a 6.
+3. O **Jogador A** joga primeiro, seguido pelo **Jogador B**.
+4. Quem somar mais pontos nos dois dados vence a rodada.
+5. Em caso de pontuações iguais, ocorre um empate na rodada.
+6. Ao final da 5ª rodada, é exibido o placar final e o vencedor da partida, com a opção de **Jogar Novamente**.
 
+## Como Executar no Expo Go
+
+1. Certifique-se de estar na pasta do projeto:
+   ```bash
+   cd JogoDados
+   ```
+
+2. Instale as dependências:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Inicie o servidor Expo:
    ```bash
    npx expo start
    ```
+   *Se estiver utilizando Codespaces ou quiser conectar remotamente pelo celular, utilize:*
+   ```bash
+   npx expo start --tunnel
+   ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Abra o aplicativo **Expo Go** no seu smartphone Android ou iOS e escaneie o código QR gerado no terminal.

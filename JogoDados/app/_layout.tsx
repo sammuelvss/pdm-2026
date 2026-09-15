@@ -1,10 +1,13 @@
 import { Stack } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 
 export default function Layout() {
   return (
-    <Stack>
-      {/* Aqui estamos dizendo que a nossa única tela é a index e escondendo o cabeçalho */}
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-    </Stack>
+    <>
+      <StatusBar style="dark" />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+      </Stack>
+    </>
   );
 }

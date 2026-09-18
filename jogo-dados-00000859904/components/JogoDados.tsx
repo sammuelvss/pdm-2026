@@ -52,12 +52,12 @@ export default function JogoDados() {
     const somaB = v1 + v2;
 
     if (somaA > somaB) {
-      setResultadoA('Jogador A Venceu');
-      setResultadoB('Jogador B Perdeu');
+      setResultadoA('Ganhou');
+      setResultadoB('Perdeu');
       setVitoriasA((prev) => prev + 1);
     } else if (somaB > somaA) {
-      setResultadoA('Jogador A Perdeu');
-      setResultadoB('Jogador B Venceu');
+      setResultadoA('Perdeu');
+      setResultadoB('Ganhou');
       setVitoriasB((prev) => prev + 1);
     } else {
       setResultadoA('Empatou');
@@ -117,8 +117,8 @@ export default function JogoDados() {
                 <Text
                   style={[
                     styles.textoResultado,
-                    resultadoA === 'Jogador A Venceu' && styles.textoVitoria,
-                    resultadoA === 'Jogador A Perdeu' && styles.textoDerrota,
+                    resultadoA === 'Ganhou' && styles.textoVitoria,
+                    resultadoA === 'Perdeu' && styles.textoDerrota,
                   ]}
                 >
                   {resultadoA}
@@ -155,8 +155,8 @@ export default function JogoDados() {
                 <Text
                   style={[
                     styles.textoResultado,
-                    resultadoB === 'Jogador B Venceu' && styles.textoVitoria,
-                    resultadoB === 'Jogador B Perdeu' && styles.textoDerrota,
+                    resultadoB === 'Ganhou' && styles.textoVitoria,
+                    resultadoB === 'Perdeu' && styles.textoDerrota,
                   ]}
                 >
                   {resultadoB}

@@ -49,6 +49,7 @@
       "eas": {
         "projectId": "b117b3a9-e68b-4250-ae50-44da423d7ba5"
       }
+      "router": {}
     },
     "runtimeVersion": {
       "policy": "appVersion"

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "JogoDados",
-    "slug": "jogo-dados",
+    "name": "UserApp",
+    "slug": "user-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "jogodados",
+    "scheme": "userapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -49,17 +49,7 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "9a2b2394-57a6-46d4-a143-937d9a823b93"
-      }
-    },
-    "owner": "sammuelvictors-team",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/9a2b2394-57a6-46d4-a143-937d9a823b93"
+      "router": {}
     }
   }
 }

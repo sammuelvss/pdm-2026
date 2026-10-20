@@ -49,7 +49,11 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "a45a16b9-65b1-45f7-8246-43ad05c107ce"
+      }
+    },
+    "owner": "sammuelvictors-team"
   }
 }
